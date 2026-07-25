@@ -1,0 +1,19 @@
+
+.header{
+  background-color:lightblue;
+  display: flex;
+  align-items: center;
+  gap:20px;
+  padding: 10px 20px;
+}
+.btn{
+  background-color:chartreuse;
+  padding:10px 20px;
+  border: 1px solid white; 
+  border-radius:6px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  font-size:15px;
+  font-weight: 400;
+  text-decoration: underline;  /* imp to understand */
+}
+
