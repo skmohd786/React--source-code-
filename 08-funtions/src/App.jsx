@@ -2,8 +2,10 @@ import { useState } from "react";
 
 const App = () => {
 
+
   const [bgcolor,setbgcolor] = useState("bg-amber-950");   // use state const [read,write] = useState(intial value of read)
 
+  
   const changecolor=  ()=>{
     if(bgcolor == "bg-amber-950") setbgcolor("bg-white-300");
     else setbgcolor("bg-amber-950");
