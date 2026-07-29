@@ -15,7 +15,7 @@ const App = () => {
       <form className=' h-1/2 flex justify-center items-center' onSubmit={(e)=>{
         submithandler(e);
       }}>
-        <input type="text" className='border-[2px] border-black text-white' placeholder='Enter the text'
+        <input type="text" className='border-2 border-black text-white' placeholder='Enter the text'
          value={name}
          onChange={(e)=>{
           setname(e.target.value)
