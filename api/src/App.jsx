@@ -5,7 +5,7 @@ const App = () => {
 
     const getdata= async ()=> {
 
-        const {data} = await axios.get('https://jsonplaceholder.typicode.com/posts');
+        const {data} = await axios.get('https://jsonplaceholder.typicode.com/posts');   // destructring for objects
         console.log(data);
         
         

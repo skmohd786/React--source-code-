@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const card = (props) => {
   console.log(props)  // access property on console 
